@@ -1,0 +1,9 @@
+1)definir clase cajero con propiedad:
+dinero 
+calle
+inicializarlo con una cantidad de plata
+
+
+instanciar el objeto cajero con una cantidad de plata
+Que tenga 2 metodos; depositar y extraer
+2) clase usuario, que va a interactuar con el cajero para sacar y poner plata
