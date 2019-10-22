@@ -1,5 +1,5 @@
 class Cajero:
-	def __init__(self, dinero = 250000, calle = ""):
+	def __init__(self, dinero=250000, calle=""):
 		self.calle = calle
 		self.dinero = dinero
 
@@ -15,13 +15,18 @@ class Cajero:
 		print("Ha depositado la cantida de $"+str(cantidad)+", su saldo actual es de\
  $"+str(self.dinero)+".")
 
+	def balance(self):
+		print("Su balance es $"+ str(self.dinero))
+
 
 #class Usuario:
 #	def __init__(self, )
 
-cajero13 = Cajero(100000)
-cajero13.calle = "13 y 47"
-print(cajero13.calle, cajero13.dinero)
-cajero13.extraer(834)
-cajero13.depositar(300000)
+
+if __name__ == '__main__':
+	cajero13 = Cajero(100000)
+	cajero13.calle = "13 y 47"
+	print(cajero13.calle, cajero13.dinero)
+	cajero13.extraer(834)
+	cajero13.depositar(300000)
 
