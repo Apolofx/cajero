@@ -12,5 +12,5 @@ Que tenga 2 metodos; depositar y extraer
 
 3)Modificar metodos extraer y depositar para que funcionen con el banco
 
-4)Que cada cajero tenga una cantidad de plata y las estracciones y depositos
+4)Que cada cajero tenga una cantidad de plata y las extracciones y depositos
 dependan de la plata de banco y cajero. 
